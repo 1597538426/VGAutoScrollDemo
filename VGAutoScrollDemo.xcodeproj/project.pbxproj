@@ -15,6 +15,7 @@
 		768443D71F4868D1005DC3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768443D51F4868D1005DC3CE /* LaunchScreen.storyboard */; };
 		768443E21F4868D1005DC3CE /* VGAutoScrollDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768443E11F4868D1005DC3CE /* VGAutoScrollDemoTests.m */; };
 		768443ED1F4868D1005DC3CE /* VGAutoScrollDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768443EC1F4868D1005DC3CE /* VGAutoScrollDemoUITests.m */; };
+		768443FC1F4868EB005DC3CE /* VGAutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 768443FB1F4868EB005DC3CE /* VGAutoScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		768443E81F4868D1005DC3CE /* VGAutoScrollDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VGAutoScrollDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		768443EC1F4868D1005DC3CE /* VGAutoScrollDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGAutoScrollDemoUITests.m; sourceTree = "<group>"; };
 		768443EE1F4868D1005DC3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768443FA1F4868E7005DC3CE /* VGAutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGAutoScrollView.h; sourceTree = "<group>"; };
+		768443FB1F4868EB005DC3CE /* VGAutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGAutoScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		768443C61F4868D1005DC3CE /* VGAutoScrollDemo */ = {
 			isa = PBXGroup;
 			children = (
+				768443FA1F4868E7005DC3CE /* VGAutoScrollView.h */,
+				768443FB1F4868EB005DC3CE /* VGAutoScrollView.m */,
 				768443CA1F4868D1005DC3CE /* AppDelegate.h */,
 				768443CB1F4868D1005DC3CE /* AppDelegate.m */,
 				768443CD1F4868D1005DC3CE /* ViewController.h */,
@@ -207,7 +212,7 @@
 				TargetAttributes = {
 					768443C31F4868D1005DC3CE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = PA8N68X393;
+						DevelopmentTeam = M8MWW96FXK;
 						ProvisioningStyle = Automatic;
 					};
 					768443DC1F4868D1005DC3CE = {
@@ -278,6 +283,7 @@
 			files = (
 				768443CF1F4868D1005DC3CE /* ViewController.m in Sources */,
 				768443CC1F4868D1005DC3CE /* AppDelegate.m in Sources */,
+				768443FC1F4868EB005DC3CE /* VGAutoScrollView.m in Sources */,
 				768443C91F4868D1005DC3CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,7 +435,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PA8N68X393;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M8MWW96FXK;
 				INFOPLIST_FILE = VGAutoScrollDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vege.VGAutoScrollDemo;
@@ -441,7 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PA8N68X393;
+				DEVELOPMENT_TEAM = M8MWW96FXK;
 				INFOPLIST_FILE = VGAutoScrollDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vege.VGAutoScrollDemo;
@@ -518,6 +525,7 @@
 				768443F31F4868D1005DC3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		768443F41F4868D1005DC3CE /* Build configuration list for PBXNativeTarget "VGAutoScrollDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +534,7 @@
 				768443F61F4868D1005DC3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		768443F71F4868D1005DC3CE /* Build configuration list for PBXNativeTarget "VGAutoScrollDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +543,7 @@
 				768443F91F4868D1005DC3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
