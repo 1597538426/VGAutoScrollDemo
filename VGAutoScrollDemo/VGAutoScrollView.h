@@ -2,7 +2,7 @@
 //  VGAutoScrollView.h
 //  u8show
 //
-//  Created by 周智伟 on 2017/6/14.
+//  Created by 伟哥 on 2017/6/14.
 //  Copyright © 2017年 weking. All rights reserved.
 //
 
